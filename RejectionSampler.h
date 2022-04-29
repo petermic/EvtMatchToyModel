@@ -9,7 +9,6 @@ class RejectionSampler {
   int getIntValue();
   private:
   float getValue();
-  bool isInsideHistogram(float value);
   TH1F* d;
   TRandomMixMax r;
   bool int_flag;
